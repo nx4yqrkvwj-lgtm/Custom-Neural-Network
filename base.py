@@ -1,4 +1,4 @@
-import cupy as np
+import numpy as np
 
 class Dense_Layer:
     def __init__(self, n_inputs, n_neurons, wlambal1=0, wlambdal2=0, blambdal2=0, blambdal1=0):
